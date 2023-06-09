@@ -1,0 +1,45 @@
+.container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h3 {
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.88);
+  margin: 24px 0;
+}
+
+.subContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.subContainer div {
+  width: 150px;
+  border-radius: 10px;
+  box-shadow: rgba(169, 234, 179, 0.052) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  text-align: center;
+  padding: 25px 20px 20px;
+  margin-top: 20px;
+}
+.subContainer div:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.subContainer p {
+  font-weight: 600;
+  margin-top: 20px;
+  color: #2d2f2f;
+}
+
+@media (max-width: 900px) {
+  .subContainer {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,16 @@
+.container {
+  background-color: #e0edf4;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 100%;
+  min-height: 50vh;
+  margin: 140px 0px;
+  h3 {
+    font-family: "Amatic SC", cursive;
+    color: rgba(0, 0, 0, 0.762);
+    font-size: 50px;
+    margin-top: 50px;
+  }
+}
